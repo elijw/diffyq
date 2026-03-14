@@ -8,7 +8,7 @@
 first clone the repo into a directory of your choosing, then `cd` into it:
 
 ```bash
-cd /path/to/some/directory
+cd path/to/some/directory
 git clone https://github.com/elijw/diffyq
 cd diffyq
 
