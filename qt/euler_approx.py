@@ -52,8 +52,6 @@ class MyWidget(QtWidgets.QWidget):
         self.y0 = float(self.y0_spin.value())
         self.h1 = float(self.h0_spin.value())
         self.h2 = float(self.h1_spin.value())
-        self.s1 = int(self.s1_spin.value())
-        self.s2 = int((self.h1 * self.s1) / self.h2)
         
         # init x and y value lists
         self.x1 = [self.x0]
@@ -62,8 +60,14 @@ class MyWidget(QtWidgets.QWidget):
         self.y2 = [self.y0]
 
         # step count stuff
+        
         self.s1_label = QtWidgets.QLabel("s1")
         self.s1_spin = QtWidgets.QSpinBox(value=20, minimum=1, maximum=100)
+
+        self.s1 = int(self.s1_spin.value())
+        self.s2 = int((self.h1 * self.s1) / self.h2)
+
+        
         self.s2_label = QtWidgets.QLabel("s2")
         self.s2_spin = QtWidgets.QLabel(str(int((self.h1 * self.s1) / self.h2)))
 
@@ -106,7 +110,8 @@ class MyWidget(QtWidgets.QWidget):
         self.l_h0.addWidget(self.h0_spin)
         self.l_h.addLayout(self.l_h0)
         # # sub-sub-layout for first graph step size
-        self.l_h1 = QtWidf.l_h1.addWidget(self.h1_label)
+        self.l_h1 = QtWidgets.QHBoxLayout()
+        self.l_h1.addWidget(self.h1_label)
         self.l_h1.addWidget(self.h1_spin)
         self.l_h.addLayout(self.l_h1)
         # add step size sub-layout to main layout
