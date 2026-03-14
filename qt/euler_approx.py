@@ -1,5 +1,5 @@
 """
-@file   euler.py
+@file   euler_approx.py
 @author elijw
 @date   2026-03-13
 @brief  Big ugly monolith at the moment but it works (well enough, that is...)
