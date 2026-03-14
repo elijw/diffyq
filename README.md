@@ -5,9 +5,10 @@
 
 ## installation
 
-first clone the repo:
+first clone the repo into a directory of your choosing:
 
 ```bash
+cd /path/to/some/directory
 git clone https://github.com/elijw/diffyq
 cd diffyq
 
