@@ -17,15 +17,15 @@ cd diffyq
 ### setup
 
 ```powershell
-python -m venv venv
+python3 -m venv venv
 venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ### run
 
 ```powershell
-python qt/euler_approx.py
+python3 qt/euler_approx.py
 ```
 
 ---
