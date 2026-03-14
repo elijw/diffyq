@@ -1,5 +1,8 @@
 # diffyq
 
+## prereqiisites
+- python 3.9.6 or higher
+
 ## installation
 
 first clone the repo:
