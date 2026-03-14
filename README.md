@@ -28,7 +28,7 @@ python3 -m pip install -r requirements.txt
 
 ### run
 
-```powershell
+```bash
 python3 qt/euler_approx.py
 ```
 
