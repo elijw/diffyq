@@ -5,7 +5,7 @@
 
 ## installation
 
-first clone the repo into a directory of your choosing:
+first clone the repo into a directory of your choosing, then `cd` into it:
 
 ```bash
 cd /path/to/some/directory
