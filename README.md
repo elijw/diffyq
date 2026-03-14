@@ -1,5 +1,7 @@
 # diffyq
 
+the eventual home of some tools differential equations
+
 ## prereqiisites
 - python 3.9.6 or higher
 
@@ -20,7 +22,7 @@ cd diffyq
 
 ### setup
 
-```powershell
+```bash
 python3 -m venv venv
 venv\Scripts\Activate.ps1
 python3 -m pip install -r requirements.txt
